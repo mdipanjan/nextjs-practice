@@ -2,13 +2,15 @@ import Head from "next/head";
 import Link from "next/link";
 import Layout from "../src/components/Layout";
 
-export default function Home() {
+export default function About() {
   return (
     <Layout>
       <Head>
-        <title>{"Home"}</title>
+        <title>{"About"}</title>
       </Head>
-      <nav>sd</nav>
+      <div className="">
+        <h1 className="test-color">About</h1>
+      </div>
     </Layout>
   );
 }
