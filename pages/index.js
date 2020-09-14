@@ -9,7 +9,7 @@ export default function Home() {
         <title>{"Home"}</title>
       </Head>
       <div className="section-1 row">
-        <div className="bg-danger col-6">
+        <div className=" col-6">
           <div className="sec1-text-box">
             <h1 className="sec1-main-text">SALE OFF! UP TO 70%</h1>
             <p className="sec1-sub-text">
