@@ -9,7 +9,7 @@ export default function About() {
         <title>{"About"}</title>
       </Head>
       <div className="">
-        <h1 className="test-color">About</h1>
+        <h1 className="test-color">Product</h1>
       </div>
     </Layout>
   );

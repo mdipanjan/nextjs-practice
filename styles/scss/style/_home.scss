@@ -1,1 +1,75 @@
-
+.section-1 {
+  height: 44rem;
+  background-color: $color-secondary;
+  margin: 0;
+}
+.sec1-image-wrap {
+  width: 100%;
+  height: 40rem;
+}
+.sec1-image {
+  // height: 100%;
+  // width: 40rem;
+  padding-left: 8rem;
+  margin-top: -6rem;
+}
+.sec1-text-box {
+  margin-left: 24rem;
+}
+.sec1-main-text {
+  width: 521px;
+  height: 71px;
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222222;
+  margin-top: 10rem;
+}
+.sec1-sub-text {
+  width: 45.62rem;
+  height: 5.25rem;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222222;
+}
+.sec1-shop-now {
+  height: 25px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222222;
+}
+.sec1-indicator {
+  writing-mode: vertical-rl;
+  width: 33px;
+  height: 74px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222222;
+  // text-orientation: mixed;
+  // text-orientation: upright;
+  // text-orientation: sideways-right;
+  text-orientation: sideways;
+}
