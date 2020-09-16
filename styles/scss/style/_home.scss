@@ -55,6 +55,17 @@
   text-align: left;
   color: #222222;
 }
+.sec1-indicator-wrap {
+  margin-left: 9rem;
+  margin-top: -13.2rem;
+}
+.shop-rec {
+  background-color: #ff2600;
+  opacity: 0.1;
+  width: 6rem;
+  height: 0.5rem;
+  margin-top: -1.3rem;
+}
 .sec1-indicator {
   writing-mode: vertical-rl;
   width: 33px;
@@ -72,4 +83,80 @@
   // text-orientation: upright;
   // text-orientation: sideways-right;
   text-orientation: sideways;
+  transform: rotate(180deg);
+}
+.sec2-card {
+  height: 28rem;
+}
+.line {
+  border-left: 1px solid #afafaf;
+  height: 8rem;
+  width: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.num {
+  width: 33px;
+  height: 22px;
+  opacity: 0.6;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  transform: rotate(180deg);
+}
+.product-link-container {
+  margin-top: 9.5rem;
+}
+.product-link-wrap {
+  list-style-type: none;
+  width: 476px;
+  height: 25px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #c7c7c7;
+}
+.product-link-wrap li {
+  display: inline;
+  margin-right: 1rem;
+}
+.all-link-wrap {
+  display: flex;
+  justify-content: flex-end;
+  // background-color: blue;
+}
+.all-link {
+  list-style-type: none;
+  // width: 125px;
+  height: 25px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222222;
+}
+.card-wrap {
+  margin-top: 3.2rem;
+}
+.sec2-indicator-wrap {
+  left: 9.5rem;
+  position: absolute;
+  margin-top: 6.1rem;
 }
